@@ -1,0 +1,12 @@
+
+header {
+    background: url("../images/background.jpg") no-repeat center right;
+    height: 930px;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
