@@ -5,54 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma Land</title>
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
 </head>
 <body>
-    <header class="header">
-
-        <nav class="navigation">
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-
-            <img src="images/logo.png" alt="Logotype">
-
-            <div class="social-icons">
-                <img src="images/socials/twitter.svg" alt="Header image">
-                <img src="images/socials/facebook.svg" alt="Header image">
-                <img src="images/socials/linkedin.svg" alt="Header image">
-            </div>
-        </nav>   
-
-        <div class="header-center">
-            <div class="header-title">
-                <h1>The best products start with Figma</h1>
-            </div>
-    
-            <div class="header-description">
-                <p>
-                    Most calendars are designed for teams. Slate is designed for freelancers
-                </p>
-            </div>
-    
-            <button class="header-button">
-                <a href="#">Try For Free</a>
-            </button>    
-        </div>
-        
-    </header>
-    <main>
+    <header data-include="header.partial.html"></header>
+    <main data-include="main.partial.html">
 
     </main>
-    <footer>
+    <footer data-include="footer.partial.html">
 
     </footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 </body>
 </html>
