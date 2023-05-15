@@ -3,13 +3,11 @@ html {
 }
 
 body {
-    background-color: #ffffff;
-    font-family: 'Graphik', sans-serif;
-    position: relative;
-    box-sizing: border-box;
-  }
+  background-color: #ffffff;
+  font-family: 'Graphik', sans-serif;
+  box-sizing: border-box;
+}
 
-.container {
-    max-width: 1200px; 
-    margin: auto; 
-  }
+img {
+  width: 100%;
+}

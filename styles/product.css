@@ -1,0 +1,13 @@
+.product__title-text {
+    font-family: var(--main-font);
+    font-size: var(--title-font-size);
+    color: var(--main-white-color);
+    text-align: center;
+}
+
+.product__subtitle-text {
+    font-family: var(--main-font);
+    font-size: var(--subtitle-font-size);
+    color: var(--main-white-color);
+    text-align: center;
+}

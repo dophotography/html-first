@@ -1,27 +1,49 @@
 <header>
-    <div class="container">
-        <nav class="header__nav">
-            <div class="header__nav-menu">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">Home</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#product">Product</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#pricing">Pricing</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">About</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#contact">Contact</a></li>
-                </ul>
+    <div class="header">
+        <nav class="navbar mb-6 navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="../images/logo.png" alt="Logotype">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#product">Product</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
             </div>
+        </nav>
     
-            <div class="header__logo-container">
-                <a class="header__logo-link" href="#">
-                    <img src="images/logo.png" alt="Logotype">
-                </a>
+        <div class="container">
+            <div class="hero  mb-10 pb-4 pt-4 col-12 col-xs-6 col-sm-4">
+                <div class="hero__titles mb-5">
+                    <div class="hero__title mb-3">
+                        <h1 class="hero__title-text">
+                            The best 
+                            products start 
+                            with Figma
+                        </h1>
+                    </div>
+                    <div class="hero_subtitle">
+                        <p class="hero__subtitle-text">
+                            Most calendars are 
+                            designed for teams. 
+                        </p>
+                    </div>
+                </div>
+                <div class="hero__button col-9 mx-auto pt-2 pb-2">
+                    <a class="hero__button-text" href="#pricing">Try For Free</a>
+                </div>
             </div>
-            
-            <div class="header__socials">
-                <object data="image/svg+xml" type="image.svg"><img src="images/socials/twitter.svg" alt="Twitter"></object>
-                <object data="image/svg+xml" type="image.svg"><img src="images/socials/facebook.svg" alt="Facebook"></object>
-                <object data="image/svg+xml" type="image.svg"><img src="images/socials/linkedin.svg" alt="LinkedIn"></object>
-            </div>
-        </nav>   
+        </div>
     </div>
 </header>

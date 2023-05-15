@@ -1,0 +1,12 @@
+:root {
+    --main-font: "Graphik", sans-serif;
+    --main-white-color: #fff;
+    --main-blue-color: #2091F9;
+    --main-dark-color: #252B42;
+
+    --title-font-size: 36px;
+    --subtitle-font-size: 28px;
+    --main-text-font-size: 20px;
+    --small-font-size: 16px;
+    
+}
