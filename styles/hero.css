@@ -1,9 +1,12 @@
-header {
-    min-width: 860px;
-}
-
 .hero__titles {
     
+}
+
+.header {
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero__title-text {
