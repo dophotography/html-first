@@ -1,77 +1,117 @@
-<header>
-  <div class="header">
-    <div class="container">
-      <nav class="navbar mb-6 navbar-expand-lg bg-body-tertiary">
-        <div class="header__burger-menu">
-          <input
-            class="header__burger-checkbox"
-            type="checkbox"
-            id="hamburger"
-          />
-          <label for="hamburger" class="hamburger">
-            <span class="header__burger-line"></span>
-            <span class="header__burger-line"></span>
-            <span class="header__burger-line"></span>
-          </label>
-          <div class="header__overlay-burger-nav">
-            <ul class="header__burger-menu-list">
-              <li class="header__burger-menu-item">
-                <a href="#" class="header__burger-menu-link">Home</a>
-              </li>
-              <li class="header__burger-menu-item">
-                <a href="#product" class="header__burger-menu-link">Product</a>
-              </li>
-              <li class="header__burger-menu-item">
-                <a href="#pricing" class="header__burger-menu-link">Pricing</a>
-              </li>
-              <li class="header__burger-menu-item">
-                <a href="#about" class="header__burger-menu-link">About</a>
-              </li>
-              <li class="header__burger-menu-item">
-                <a href="#contact" class="header__burger-menu-link">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <ul class="header__nav-list">
-          <li class="header__nav-item">
-            <a href="#" class="header__nav-link">Home</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#services" class="header__nav-link">Product</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#pricing" class="header__nav-link">Pricing</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#about" class="header__nav-link">About</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#contact" class="header__nav-link">Contact</a>
-          </li>
-        </ul>
-        <div class="header__call-us">
-          Call us:&nbsp;
-          <a href="tel:+12345678900" class="header__call-us-link">
-            +1 (234) 567 89 00
+<header class="header">
+
+  <nav class="nav-bar header__burger">
+    
+    <div class="menu header__menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="#">Home</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#features">Product</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#pricing">Pricing</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#how-to-use">About</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contacts">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="socials header__socials">
+      <ul class="socials__list">
+        <li class="socials__item">
+          <a class="socials__link" href="#">
+            <img src="imgs/header-imgs/social-media-icons/twitter-icon.svg" alt="Twitter icon." />
           </a>
-        </div>
-      </nav>
-      <div class="hero d-flex flex-column justify-space-between mb-10 pb-4 pt-4 col-6 col-sm-12">
-        <div class="hero__titles mb-5">
-          <div class="hero__title mb-3">
-            <h1 class="hero__title-text">The best products start with Figma</h1>
-          </div>
-          <div class="hero_subtitle">
-            <p class="hero__subtitle-text">
-              Most calendars are designed for teams.
-            </p>
-          </div>
-        </div>
-        <div class="hero__button col-9 mx-auto pt-2 pb-2">
-          <a class="hero__button-text" href="#pricing">Try For Free</a>
-        </div>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link" href="#">
+            <img src="imgs/header-imgs/social-media-icons/facebook-icon.svg" alt="Facebook icon." />
+          </a>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link" href="#">
+            <img src="imgs/header-imgs/social-media-icons/instagram-icon.svg" alt="Instagram icon." />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="burger-menu">
+      <span></span>
+    </div>
+
+  </nav>
+
+  <nav class="nav-bar header__nav">
+
+    <div class="menu header__menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#" class="menu__link">Home</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Products</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Pricing</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">About</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="logo header__logo">
+      <a href="#" class="logo__link">
+        <img src="images/logo.png" alt="Logotype">
+      </a>
+    </div>
+
+    <div class="socials header__socials">
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="images/socials/facebook.svg" alt="Facebook">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="images/socials/linkedin.svg" alt="Linkedin">
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link">
+            <img src="images/socials/twitter.svg" alt="Twitter">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <section class="hero">
+    <div class="hero__titles">
+      <div class="hero__title">
+        <h1 class="hero__title-text">The best products start with Figma</h1>
+      </div>
+      <div class="hero__subtitle">
+        <p class="hero__subtitle-text">
+          Most calendars are designed for teams.
+        </p>
       </div>
     </div>
-  </div>
+    <div class="hero__button">
+      <a class="hero__button-text" href="#pricing">Try For Free</a>
+    </div>
+  </section>
+
 </header>
